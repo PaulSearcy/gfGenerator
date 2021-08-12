@@ -16,6 +16,7 @@ const main = async ([apiUrl, cssFileName, directoryPrefix]) => {
     let fontGFVersion = '';
     let fontGFPrefix = '';
 
+    directoryPrefix ? fs.mkdirSync(directoryPrefix) : fs.mkdirSync('fonts');
     let outputDirectoryPrefix = directoryPrefix || 'fonts/';
 
     const replaceGFPrefixInCSS = () => {
