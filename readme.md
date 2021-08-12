@@ -22,3 +22,7 @@ Then run `npm run example`.
 
 This will generate the fonts folder with the hashed-named woff2 files for OpenSans and the CSS file. 
 Then just open up `test.html` with chrome or firefox!
+
+# To-do
+- In general clean up code to be more friendly to other use cases besides the one off case this was developed for. 
+- Document parts of the code/functions to make it easier for anyone seeing this readme understand how to use code without having to dig into source
